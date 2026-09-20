@@ -19,7 +19,7 @@ void listtask() {
         std::cout<<"no tasks yet \n";
     } else {
       for (int i = 0; i < (int)tasks.size(); i++) {
-           std::cout<<i+1 << tasks[i].description << tasks[i].done ? "X" : " "<<"\n";
+           std::cout<<i+1 << tasks[i].description <<(tasks[i].done ? "X" : " ") <<"\n";
         }
     }
 }
